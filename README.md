@@ -28,6 +28,8 @@ The pipeline consists of the following steps:
 
 I used a pre-trained face detector from OpenCV to identify each face in the image and I developed a CNN for predicting the locations of facial keypoints. The model accepts 96×96 grayscale images as input, and it outputs a vector with 30 entries, corresponding to the predicted (horizontal and vertical) locations of 15 facial keypoints.
 
+## Model Results
+
 ![keypoints-accuracy](./images/keypoints-accuracy.png)
 
 ![keypoints-loss](./images/keypoints-loss.png)
